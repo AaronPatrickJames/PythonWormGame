@@ -11,7 +11,11 @@ if __name__ == "__main__":
 
     #snek :D
     block = pygame.image.load("images/Block.png").convert()
-    surface.blit(block,(0,0))
+    block_x = 100 
+    block_y = 100
+    surface.blit(block,(block_x,block_y))
+
+
 
     ##update Screen
     pygame.display.flip()
